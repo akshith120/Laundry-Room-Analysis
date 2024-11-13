@@ -32,20 +32,24 @@ The dataset (`enhanced_washing_room.csv`) includes:
 
 ## Installation
 To run this notebook, clone the repository and install the required libraries:
+```
+jupyter notebook IDSE_PROJECT.ipynb
+```
 
 ## Project Workflow
 The workflow in the notebook includes:
 
-Data Preprocessing: Dropping missing values, removing duplicates, encoding categorical data, and scaling features.
-Exploratory Data Analysis (EDA): Aggregating and visualizing user count by time slot, weather, and holidays.
-Model Selection: A Linear Regression model was chosen due to its interpretability and efficiency on small datasets.
-Model Evaluation: The model’s performance is evaluated using R² and Mean Squared Error (MSE) to assess prediction accuracy.
+- Data Preprocessing: Dropping missing values, removing duplicates, encoding categorical data, and scaling features.
+- Exploratory Data Analysis (EDA): Aggregating and visualizing user count by time slot, weather, and holidays.
+- Model Selection: A Linear Regression model was chosen due to its interpretability and efficiency on small datasets.
+- Model Evaluation: The model’s performance is evaluated using R² and Mean Squared Error (MSE) to assess prediction accuracy.
 
 ## Results
 The Linear Regression model achieved:
 
 - R² Score: ~0.79
 - Mean Squared Error (MSE): ~6.00
+  
 These metrics indicate that the model captures key patterns in user behavior, though further improvements could be made by testing more complex models.
 
 ## Visualizations
